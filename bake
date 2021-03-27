@@ -1,0 +1,5 @@
+MACHINE="beaglebone"
+nice bitbake -k a38-sde || return
+
+MACHINE="beagleboneai"
+nice bitbake -k a38-sde || return
