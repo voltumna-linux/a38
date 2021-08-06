@@ -231,6 +231,7 @@ PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
 # this doesn't mean anything to you.
 CONF_VERSION = "1"
 
+DISTRO_NAME="A38"
 SDK_NAME_PREFIX = "a38-sdk"
 
 INHERIT += "buildhistory"
